@@ -38,6 +38,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
         SQLiteDatabase database = this.getWritableDatabase();
         ContentValues content_values = new ContentValues();
+        return 0;
     }
 
 }

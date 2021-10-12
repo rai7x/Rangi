@@ -17,8 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-        android:text=""
-        android:autofillHints="@string/input_text" />
+        android:text="" />
 
     <TextView
         android:id="@+id/textView3"
@@ -30,8 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:text=""
-        android:autofillHints="@string/password_text" />
+        android:text="" />
 
     <Button
         android:id="@+id/login_button"
