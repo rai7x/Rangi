@@ -35,9 +35,10 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         onCreate(sqLiteDatabase);
     }
     public long add_entry_to_DB (Color col) {
-
+        long rowID=10000;
         SQLiteDatabase database = this.getWritableDatabase();
         ContentValues content_values = new ContentValues();
+        return rowID;
     }
 
 }
