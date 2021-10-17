@@ -2,5 +2,7 @@
     <string name="app_name">Rangi</string>
     <string name="colour_selection">Colour Selection</string>
     <string name="favourite_colours">Favourite Colours</string>
-    <string name= "title_activity_colour_suggestion">Suggestions</string>
+    <string name="title_activity_colour_suggestion">Suggestions</string>
+    <string name="wecome_to_rangi_colour_section">Wecome To Rangi Colour Section</string>
+    <string name="welcome_to_rangi_colour_selection">Welcome To Rangi Colour Selection</string>
 </resources>
