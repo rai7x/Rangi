@@ -2,4 +2,7 @@
     <string name="app_name">Rangi</string>
     <string name="colour_selection">Colour Selection</string>
     <string name="favourite_colours">Favourite Colours</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
 </resources>
