@@ -9,15 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Rangi">
-
-
         <activity
-            android:name=".ColourSelection"
-            android:exported="false" 
-            android:label="@string/title_activity_colour_suggestion"/>
+            android:name=".colourSelection"
+            android:exported="false" />
         <activity
             android:name=".favouriteColours"
             android:exported="false" />
+        <activity
+            android:name=".ColourSuggestion"
+            android:exported="false"
+            android:label="@string/title_activity_colour_suggestion"
+            android:theme="@style/Theme.Rangi" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
