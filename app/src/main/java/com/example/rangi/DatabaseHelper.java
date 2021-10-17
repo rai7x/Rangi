@@ -95,6 +95,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         cursor.close();
         database.close();
         return colourReturn;
+
     }
 
     }

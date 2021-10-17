@@ -3,20 +3,10 @@ package com.example.rangi;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-import android.content.DialogInterface;
-import android.graphics.Color;
-import android.os.Bundle;
-import android.widget.Toast;
-
-import android.content.res.ColorStateList;
-import android.content.res.Resources;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;;
-import android.widget.Toast;
-import androidx.appcompat.app.AlertDialog;
-import androidx.fragment.app.FragmentActivity;
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import android.view.View;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -27,8 +17,16 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
     }
-    private void chooseColor() {
 
+
+    public void startFavourites(View view) {
+        Intent intent = new Intent(this, favouriteColours.class);
+        startActivity(intent);
+    }
+
+    public void startSelection(View view) {
+        Intent intent = new Intent(this, colourSelection.class);
+        startActivity(intent);
     }
 
 }
